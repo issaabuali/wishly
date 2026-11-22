@@ -99,7 +99,7 @@ function done(o) {
   set(`<h1>${esc(t().share)}</h1>
     <div class="card"><div class="copy"><input readonly id="lk" value="${esc(abs(o.recipientLink))}" aria-label="gift link"><button id="cp" class="btn">${esc(t().copy)}</button></div></div>
     <div class="note">${esc(t().shareNote)}</div>
-    <a class="btn green" href="${esc(o.trackLink)}">${esc(t().trackGift)}</a>`);
+    <div class="row"><a class="btn" href="${esc(o.recipientLink.replace(/^\//, ''))}">${esc(t().openGift)}</a><a class="btn green" href="${esc(o.trackLink.replace(/^\//, ''))}">${esc(t().trackGift)}</a></div>`);
   on('#cp', 'click', async (e) => { try { await navigator.clipboard.writeText($app.querySelector('#lk').value); } catch { $app.querySelector('#lk').select(); } e.target.textContent = t().copied; });
 }
 

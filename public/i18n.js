@@ -11,7 +11,7 @@ window.I18N = {
     note: 'Write a few words from your heart.', noteLabel: 'Your personal message', surprise: 'Surprise setting',
     reveal: 'Reveal mode: show full details and let them choose', discovery: 'Discovery mode: show themes first, reveal details after they choose',
     checkout: 'Your gift is ready to begin its journey.', sandbox: 'Sandbox payment — no real charge is made.', pay: 'Pay', next: 'Next', back: 'Back',
-    share: 'Your invitation is ready. Send a little joy.', copy: 'Copy link', copied: 'Copied', trackGift: 'Track this gift',
+    share: 'Your invitation is ready. Send a little joy.', copy: 'Copy link', copied: 'Copied', openGift: 'Open as the recipient', trackGift: 'Track this gift',
     shareNote: 'Keep your tracking link: you will see payment, order status and delivery only — never their private answers.',
     // recipient
     r1: 'Someone thought of you. Your gift begins with your story.', r2: 'Your words are private. Share only what feels comfortable.',
@@ -48,7 +48,7 @@ window.I18N = {
     note: 'اكتب كلمات صغيرة من قلبك.', noteLabel: 'رسالتك الشخصية', surprise: 'إعداد المفاجأة',
     reveal: 'وضع الكشف: عرض التفاصيل الكاملة ليختار المستلم', discovery: 'وضع المفاجأة: عرض الفكرة أولًا ثم التفاصيل بعد الاختيار',
     checkout: 'هديتك جاهزة لتبدأ رحلتها.', sandbox: 'دفع تجريبي — لا يتم خصم أي مبلغ فعلي.', pay: 'ادفع', next: 'التالي', back: 'رجوع',
-    share: 'بطاقة هديتك جاهزة… أرسل لحظة فرح.', copy: 'نسخ الرابط', copied: 'تم النسخ', trackGift: 'تتبع الهدية',
+    share: 'بطاقة هديتك جاهزة… أرسل لحظة فرح.', copy: 'نسخ الرابط', copied: 'تم النسخ', openGift: 'افتح كمستلم', trackGift: 'تتبع الهدية',
     shareNote: 'احتفظ برابط التتبع: سترى الدفع وحالة الطلب والتسليم فقط، ولن ترى إجاباتهم الخاصة.',
     r1: 'هناك من فكّر بك… وهديتك تبدأ بحكايتك.', r2: 'كلماتك خاصة بك. شارك فقط ما ترغب بمشاركته.',
     consent: 'أوافق على استخدام كلماتي لاقتراح الهدايا. يمكنني تعديلها أو حذفها في أي وقت.',
