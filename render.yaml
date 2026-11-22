@@ -2,16 +2,10 @@ services:
   - type: web
     name: wishly
     runtime: node
-    plan: starter            # persistent disks need a paid plan; free plans lose data on restart
+    plan: free               # free: sleeps after ~15 min idle, and saved orders reset on restart/redeploy
     buildCommand: "true"     # no dependencies to install
     startCommand: node server.js
     healthCheckPath: /api/catalog
     envVars:
       - key: ADMIN_TOKEN
         generateValue: true  # read it in the Render dashboard (Environment tab)
-      - key: WISHLY_DB
-        value: /var/data/db.json
-    disk:
-      name: wishly-data
-      mountPath: /var/data
-      sizeGB: 1
