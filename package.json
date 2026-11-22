@@ -1,0 +1,1 @@
+{ "name": "wishly", "version": "0.1.0", "private": true, "description": "Wishly bilingual gifting MVP", "scripts": { "start": "node server.js", "test": "WISHLY_DB=/tmp/wishly-test.json node --test test/*.test.js" }, "engines": { "node": ">=20" } }
